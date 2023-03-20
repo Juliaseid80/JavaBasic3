@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Scanner {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter your name:");
+        String name = sc.nextLine();
+
+
+        System.out.print("Enter your surname:");
+        String surname = sc.nextLine();
+
+
+        System.out.print("enter your age:");
+        int age = sc.nextInt();
+
+
+        System.out.print("are you student?:");
+        boolean isStudent = sc.nextBoolean();
+
+        System.out.println();
+
+        System.out.println("your full name is " + name + " " + surname);
+
+        System.out.println();
+        System.out.println();
+
+        
+        int a = 4431;
+
+        System.out.println(a);
+
+        System.out.println(4 * Math.pow(3, 3) + 4 * Math.pow(3, 2) + 3 * Math.pow(3, 1) + 1 * Math.pow(3, 0));
+        System.out.println();
+
+        long a3 = 20002010;
+
+        System.out.println(a3);
+
+
+    }
+}
